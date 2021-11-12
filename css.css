@@ -1,3 +1,37 @@
-img{
-    width: 100%;
+*{
+    padding: 0px auto;
+    margin: 0px auto;
+    font-family: "ALS Ekibastuz";
 }
+.wrapper{
+    padding: 7px;
+}
+@media screen and (max-device-width: 480px) {
+    header{
+        display: flex;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .logo{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .lang{
+        margin-top: 48px;
+        
+    }
+    .lang img{
+        width: 100px;
+    }
+    .green{
+        margin-top: 25px;
+    }
+    .green img{
+        width: 440px;
+    }
+}
+
+@import url(//db.onlinewebfonts.com/c/443b6e3bb84cf8085121d95e71b1b1e5?family=ALS+Ekibastuz);
+
+@font-face {font-family: "ALS Ekibastuz"; src: url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.eot"); src: url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.woff") format("woff"), url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/443b6e3bb84cf8085121d95e71b1b1e5.svg#ALS Ekibastuz") format("svg"); }
